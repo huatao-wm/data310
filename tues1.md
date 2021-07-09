@@ -16,6 +16,8 @@ question 3 What is the shape of the images test set?
 - 10,000 images in test set
 - each image 28 x 28 pixels
 
+![](tues1.png)
+
 
 
 
