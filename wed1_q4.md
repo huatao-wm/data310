@@ -1,0 +1,1 @@
+![](wed1_image/q4.png)
