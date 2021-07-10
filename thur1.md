@@ -1,0 +1,1 @@
+https://tyeatts75.github.io/Data310/thurs1.html
