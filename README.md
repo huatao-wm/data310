@@ -15,4 +15,5 @@
 ## Projects
 
 - Project 1
+  - [project 1](project1.md)
 - Project 2
