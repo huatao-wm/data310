@@ -10,10 +10,10 @@
 
   
 - Module 2
-something
+
 
 
 ## Projects
 
-- Project 1[project1](projects/project1/project1.md)
+- Project 1[project1](projects/project1/project1_revised.md)
 - Project 2

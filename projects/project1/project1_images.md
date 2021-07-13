@@ -18,3 +18,7 @@ spatial variable
 number 3
 sorted ascending y-y_pred
 ![](number3sort.png)
+
+number 4
+heatmap/correlation coefficients
+![](project1\heatmap.png)
