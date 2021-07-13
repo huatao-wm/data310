@@ -21,4 +21,5 @@ sorted ascending y-y_pred
 
 number 4
 heatmap/correlation coefficients
-![](project1\heatmap.png)
+![](heatmap_reupload.png)
+
