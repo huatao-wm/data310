@@ -69,8 +69,8 @@ Which feature appears to be the most significant predictor?
         - and the lower the better (or more accurate)
 
 - REVISION:
-- 'bathroom' is the most significant predictor of 'price' because
-    - looking along the column/row of 'price' on heatmap, 'bathroom' has the highest
+- 'neighborhood' is the most significant predictor of 'price' because
+    - looking along the column/row of 'price' on heatmap, 'neighborhood' has the highest
     correlation coefficient of 0.83, compared to other variables
 - [heatmap](project1_images.md)
 
