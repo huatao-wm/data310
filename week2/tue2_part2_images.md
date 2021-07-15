@@ -13,3 +13,6 @@ filter = [ [-1, 0, 1], [-2, 0, 2], [-1, 0, 1]]
 ###Pooling
 ![](tue2_images_folder\pooling.png)
  --pooling of the first convoluted filtered image
+
+![](final_question.png)
+answer: ![](tue2_part2_final_answer.png)

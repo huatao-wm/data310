@@ -32,3 +32,8 @@ Another useful method is pooling. Apply a 2x2 filter to one of your convolved im
   - the number of pixels have decreased through pooling
 - The method pooling would be useful because it renders models to train faster
   - since extraneous info are removed, there's less data for the model to learn through
+
+
+Finally, review the following images from class and then convolve the 3x3 filter over the 9x9 matrix and provide the resulting matrix
+- [link to matrices](tue2_part2_images.md)
+
