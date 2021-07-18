@@ -35,12 +35,12 @@ Produce a plot that illustrates and compares all four models. Why in your estima
 - [comparison of 4 models](tue2_images.md)
 - my models and graph demonstrate conclusion and observation consistent with the TensorFlow
 webpage for the most part--with combo and tiny models ranking among the best--except that
-  my graph shows a strange spike and a wider divergence towards the end for "Dropout Train" and "Dropout" Val"
+  my graph shows a strange spike and a wider divergence towards the end for "Dropout Train" and "Dropout Val"
     - though on the TensorFlow graph, there is also a slight divergence for "dropout train" and "dropout val"
 
 What is an overfit model? Why is it important to address it? 
 What are four different ways we have addressed an overfit model thus far?
-- overfit model is a model that predicts with high accuracy for traning dataset but fails to
+- overfit model is a model that predicts with high accuracy for training dataset but fails to
 generalize for testing data or data it has never seen
   - overfitting occurs when training and validation loss metrics go off in opposite direction
 - it is important to address it because the purpose of building model is to generalize it for use on
