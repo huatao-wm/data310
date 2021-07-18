@@ -1,8 +1,11 @@
-##Week 2 Thursday Response
-####datasets:
+## Week 2 Thursday Response
+
+#### datasets:
 beans https://www.tensorflow.org/datasets/catalog/beans
 
 eurosat https://www.tensorflow.org/datasets/catalog/eurosat
+
+
 
 relevant TensorFlow:
 https://www.tensorflow.org/tutorials/load_data/images#using_tensorflow_datasets
@@ -17,7 +20,7 @@ https://www.tensorflow.org/tutorials/images/data_augmentation#apply_augmentation
 
 
 
-###Questions
+### Questions
 
 For today's class you loaded and preprocessed the tf.dataset the tf_flowers, and then trained a CNN in order to predict whether a particular image was of one of five different types of flowers. 
 For the first part of this exercise, instead of using the tf.keras.utils.get_file() to load your data, use tfds.load() to load a tensorflow dataset as illustrated in the section Using TensorFlow Datasets. 
