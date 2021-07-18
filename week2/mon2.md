@@ -1,4 +1,4 @@
-###Week 2 Monday Response
+### Week 2 Monday Response
 dataset: https://archive.ics.uci.edu/ml/datasets/Automobile 
 
 out of 26 variables, these are the categorical:
