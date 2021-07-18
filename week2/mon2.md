@@ -38,10 +38,10 @@ each with a new continuous/numeric feature from the list of 26 features added to
 - for each 'loop' (holding one categorical variable constant for loop), a new continuous feature is added each time to run a model, 
   until all the continuous features have been added
 - you can see the dataframes of MAE here [MAE dataframes](mon2_df.md)  
-    - I highlighted which model
+    - I highlighted the models with the lowest MAE from each loop
 - because there are so many models ran, a plot visualization would be too complicated for the eyes.  
   Therefore, I chose to present the MAE information with dataframes
-- the best model is "lin_city-mpg" with categorical variable "engine type" because it has the lowest MAE
+- the best model is "lin_city-mpg", run with categorical variable "engine type", because it has the lowest MAE
 of 0.690061, which is even lower than the original DNN and linear regression.
-  - "lin_city-mpg" means linear regression model run with continuous features of 
-        - symbolizing, normalized-losses, wheel-base, length, width, height, bore, stroke, compression-ratio, peak-rpm, AND CITY-MPG
+  - "lin_city-mpg" means linear regression model run with continuous features of
+    - symbolizing, normalized-losses, wheel-base, length, width, height, bore, stroke, compression-ratio, peak-rpm, AND CITY-MPG
