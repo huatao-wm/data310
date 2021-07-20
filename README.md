@@ -16,6 +16,9 @@
   - [Tuesday Response part 2](week2/tue2_part2.md)
   - [Thursday Response](week2/thur2.md)
 
+- Module 3
+  - [Monday Response](week3/mon3.md)
+
 
 
 ## Projects
