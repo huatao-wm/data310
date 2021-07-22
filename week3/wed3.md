@@ -16,4 +16,4 @@ this time "age" is removed from numeric column.  The third combination is numeri
 is fed into numeric column, "age" fed into bucketized column, and "gender" is inputted into indicator column.
 10 epochs are used for each round and sub-round for fitting model.  BinaryCrossentropy is the loss metrics used during compiling.
 The model has two hidden Dense layers, each with 128 neurons and one Dropout layer with a parameter of 0.1.  
-Check the accuracies here: [accuracy](week3/wed3_images.md)
+Check the accuracies here: [accuracy](wed3_images.md)
