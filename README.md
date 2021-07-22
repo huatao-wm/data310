@@ -19,6 +19,7 @@
 - Module 3
   - [Monday Response](week3/mon3.md)
   - [Tuesday Response](week3/tue3.md)
+  - [Wednesday Response](week3/wed3.md)
 
 
 
