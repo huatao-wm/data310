@@ -38,6 +38,9 @@ Trend: except for the second model, which accuracy decreased from first model's,
 a pattern of increase as we increase value of "wealth".  
 So these features are more accurate at predicting the wealthier demographics of the country.
 
+Here is a link to teammate Ethan's webpage: https://eanelson01.github.io/DATA310/mod3/thursday3.html
+- Ethan took a different approach at the problem and dataset
+
 
 
 
