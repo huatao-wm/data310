@@ -38,21 +38,57 @@ Why is this so? What is each one measuring?
     
     - target: traffic_volume
     - output of metro model:
-        - loss of epoch 10: 3534987
+        - loss of epoch 10: 0.9665
+    
+- Iris dataset
+    - target: species
+        - represents the 3 classes of iris
+    - output of iris model: (epoch 10)
+        - loss for scenario 1: 0.0140
+        - loss for scenario 2: 0.8375
+        - loss for scenario 3: 0.1358
+        - [loss](mon3_images.md)
+    - I run the model with three variations for the iris dataset
+        - for each variation, one class is assigned a 1, while the other two classes are assigned a 0
+            - making it a binary problem to investigate
+    - The iris dataset plot_model() has four layers
+        - the first layer is InputLayer
+            - comprised of four boxes, each representing an input feature of the iris dataset
+                - sepal_length, sepal_width, petal_length, petal_width
+        - the second layer is a Concatenate layer
+            - because all the input features are of the same data type (continuous/numeric), they 
+            are concatenated together
+        - the third layer is Normalization
+            - because all the input features are continuous/numeric, that's why normalization 
+            is applied
+        - the fourth layer is Concatenate a second time      
+    
     
 - with just training and no testing, accuracy of each model can be assessed by
     - looking at loss
         - of the last epoch of training
 - metrics used:
-    - metro: loss=tf.losses.MeanSquaredError()
+    - metro: loss=tf.losses.MeanSquaredLogarithmicError()
+        - measures mean squared logarithmic error between actual labels and predicted labels
+        - I tried MeanSquaredError, MeanAbsoluteError, and MeanAbsolutePercentageError as well
+            - but MeanSquaredLogaritmicError() gives the most reasonable loss value
+                - all the other loss metrics produce final loss value that are at least in the thousands
     - iris: loss=tf.losses.BinaryCrossentropy()
-- different metrics are used beccause both datasets imply two very differnt problems to investigate
+        - measures the loss between true labels and predicted labels
+- different metrics are used because both datasets imply two very differnt problems to investigate thus require different approaches
     - metro: regression; one-variable target "traffic_volume" of Minneapolis St Paul 
         - features characteristics: multi-variate, sequential, time-series
         - https://archive.ics.uci.edu/ml/datasets/Metro+Interstate+Traffic+Volume#
     - iris: classification; 3-class target:
         - feature characteristics: multivariate
-        - https://archive.ics.uci.edu/ml/datasets/iris 
+        - https://archive.ics.uci.edu/ml/datasets/iris
+- the paths towards the final concatenation step is different for both datasets.  
+Although both datasets' plot_model() both have four layers, because metro dataset has a more heterogenous feature mix, 
+  while iris dataset has a more homogenous feature mix, metro dataset went through the additional process of 
+  StringLookUp and CategoryEncoding for its categorical features.
+    
+
+
     
     
     
