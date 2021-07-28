@@ -27,3 +27,4 @@
 
 - Project 1[project1](projects/project1/project1_revised.md)
 - Project 2
+- Project 3 [project3](projects/project3/project3.md)
