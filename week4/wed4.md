@@ -17,7 +17,7 @@ The Imitation Game is a biographic film about Alan Turing, and Minority Report t
   of spectrum of time and this technology respectively.  One represents the past and the beginning of AI, while the other forshadows a potential future that may become 
   reality.  
 - I ran the code two times, flipping the choices of "content_path" and "style_path" pictures.  
-- Here are the two original pictures: [original pictures](wed4_images.md)
+- Here are the two original pictures & other pictures: [pictures](wed4_images.md)
 - To my surprise, I much prefer the fast track pictures for both different settings because the fast track pictures look most creative and art-sy.  
 The more I train, increase epoch, and optimize, the more it looks more "normal" and close to what the original pictures look like.
   I think pictures that come out of settings of "content_path=minority report" and "style_path=imitation game" are better than the other setting's pictures
