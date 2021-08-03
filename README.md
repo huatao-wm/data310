@@ -35,3 +35,4 @@
 - Project 2
 - Project 3 [project3](projects/project3/project3.md)
 - Project 4 [project4](projects/project4.md)
+- Final Project
