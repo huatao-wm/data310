@@ -11,6 +11,7 @@ The binary classification predictive models that I build are based on the script
 
 
 https://www.kaggle.com/uciml/german-credit (simplified dataset)
+
 https://www.kaggle.com/sid321axn/south-german-credit-updated (full dataset)
 
 #### link to view presentation recording: 
